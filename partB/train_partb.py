@@ -161,8 +161,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--train_dataset_path", "-ptrn", type=str, default="inaturalist_12K/train")
 parser.add_argument("--test_dataset_path", "-ptst", type=str, default="inaturalist_12K/val")
 parser.add_argument("--epochs", "-ep", type=int, default=15)
-parser.add_argument("--batch_size", "-bs", type=int, default=32)
-parser.add_argument("--unfreezed_layers_from_end", "-ul", type=int, default=1)
+parser.add_argument("--batch_size", "-bs", type=int, default=256)
+parser.add_argument("--unfreezed_layers_from_end", "-ul", type=int, default=0)
 args = parser.parse_args()
 
 # Setting dataset path form command line arguments
