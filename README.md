@@ -1,4 +1,4 @@
-# CS6910-Assignment-2
+# Image-Classification
 This is [CS6910](http://www.cse.iitm.ac.in/~miteshk/CS6910.html) course assignment-2 at IIT Madras. [Here](https://wandb.ai/cs6910_2024_mk/A1/reports/CS6910-Assignment-2--Vmlldzo3MjcwNzM1) you will find detailed information about the assignment. This assignment is divided into two parts. In **partA** I created a CNN and trained it on [iNaturalist dataset](https://storage.googleapis.com/wandb_datasets/nature_12K.zip). In **partB** I used a pre-trained model (GoogLeNet) and fine-tuned it for [iNaturalist dataset](https://storage.googleapis.com/wandb_datasets/nature_12K.zip).
 
 [Here](https://wandb.ai/cs23m056/CS23M056_DL_Assignment_2/reports/CS6910-Assignment-2--Vmlldzo3NDQ2OTM0) is the detailed wandb report for this assignment.
